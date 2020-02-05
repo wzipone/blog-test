@@ -2,7 +2,7 @@
 
 ## 封面
 
-![avatar](头像.jpg)
+![avatar](封面.jpg)
 
 ## GitHub博客链接
 
