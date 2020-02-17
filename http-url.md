@@ -26,8 +26,7 @@
    2. 二级域名：xiedaimala.com（俗称一级域名，忽略顶级域名）
    3. 三级域名: www.xiedaimala.com（俗称二级域名）
    4. 三级域名中常用的www是历史遗留的问题，可以不使用，主要方便老用户的习惯
-4. nslookup命令查询域名对应的IP，使用方法：nslookup baidu.combaidu.com
-   
+4. nslookup命令查询域名对应的IP，使用方法：nslookup baidu.com
 ## IP的作用
 1. 全称：Internet Protocol 
 2. 协议主要内容：
