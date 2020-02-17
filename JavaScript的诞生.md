@@ -1,5 +1,5 @@
 # JavaScript的诞生
-## 发明人：布兰登·艾克（Brendan Eich）
+## 1.发明人：布兰登·艾克（Brendan Eich）
 * 1961年7月4日出生于美国
 * 1986年获取伊利诺伊大学香槟分校计算机科学硕士学位
 * 毕业后进入SGI工作，在此工作七年，主要负责操作系统与网络功能，之后又在MicroUnity工作了三年
@@ -10,7 +10,7 @@
 * 2015年5月28日，艾克成立Brave软件公司，这是一家互联网安全公司
 * 2016年1月20日，该公司发布了Brave网页浏览器
 
-## JavaScript发明
+## 2.JavaScript发明
 ### 肇始于网景
 * 网景预见动态网页的趋势，满足浏览器与用户的交互
 * Sun公司推出Java大火，两家公司合作
@@ -19,7 +19,7 @@
 * 1995年5月仅花了十天时间就把原型设计出来
 * 最初命名为Mocha，为了蹭Java的流量，因此取名为JavaScript
 
-## JavaScript标准之争
+## 3.JavaScript标准之争
 JavaScript推后大获成功
 ### 微软跟进
 * 微软公司在不久后就为Internet Explorer 3浏览器推出了JScript，JScript也是一种JavaScript实现
@@ -27,13 +27,13 @@ JavaScript推后大获成功
 * 1996年11月，网景正式向ECMA（欧洲计算机制造商协会）提交语言标准
 * 1997年6月，ECMA以JavaScript语言为基础制定了ECMAScript标准规范ECMA-262
 
-## JavaScript兴起
+## 4.JavaScript兴起
 杀手级应用Gmail
 * 2004年愚人节，谷歌发布Gmail在线网页，当时人们认为网页之恶能用来看新闻和图片，Gmail的出现让用户和开发者眼前一亮
 * 2005年，Jesse将谷歌用到的技术命名为AJAX，从此前端技术正式出现
 * 2006年，JQuery发布，是目前最长寿的JS库，在后来的十年大放异彩，直到IE的衰落
 
-## JavaScript爆发
+## 5.JavaScript爆发
 Chrome的JS引擎V8，快如闪电
 * 2009年，Ryan基于V8创建了Node.js
 * 2010年，Isaac基于Node.js写出了npm
@@ -41,7 +41,7 @@ Chrome的JS引擎V8，快如闪电
 * 同年，TJ受到Sinatra启发，发布了Express.js
 * 从此，前端工程师可以使用JavaScript写后端应用
 
-## 最后，ECMAScript标准的发布
+## 6.最后，ECMAScript标准的发布
 * 1997年6月，第一版E发布
 * 1999年12月，第三版发布，是使用最广的版本
 * 第四版因为功能太多，没办法实现流产
