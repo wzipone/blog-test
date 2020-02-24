@@ -15,7 +15,7 @@ for(i = 0; i<6; i++){
 4. 最后执行6次，所以打印出来了6个6
 
 ## 二、如何让上面代码打印 0、1、2、3、4、5 的方法
-1. 使用JS对for-let搭配使用的优化
+1. 使用JS对for-let搭配使用的改造
 ```javascript
 for(let i = 0; i<6; i++){
   setTimeout(()=>{
@@ -24,14 +24,33 @@ for(let i = 0; i<6; i++){
 }
 ```
 
-2. 使用闭包，将i的值传入到手动建立的函数作用域中
+2. 使用闭包
 ```javascript
 for(let i = 0; i<6; i++){
-    !(function(i){
+    !function(){
         setTimeout(()=>{
-        console.log(i)
+            console.log(i)
         },0)
-    })(i)
+    }()
+}
+```
+
+3. 使用闭包
+```javascript
+for(let i = 0; i<6; i++){
+  setTimeout(!function(){
+    console.log(i)
+  }(),0)
+}
+```
+
+4. 每次循环声明一个变量
+```javascript
+for(let i = 0; i<6; i++){
+    let j = i
+    setTimeout(()=>{
+       console.log(j)
+     })
 }
 ```
 
