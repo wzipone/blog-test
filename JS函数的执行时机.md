@@ -24,33 +24,33 @@ for(let i = 0; i<6; i++){
 }
 ```
 
-2. 使用闭包
-```javascript
-for(let i = 0; i<6; i++){
-    !function(){
-        setTimeout(()=>{
-            console.log(i)
-        },0)
-    }()
-}
-```
 
-3. 使用闭包
+1. 使用let的块级作用域特性
 ```javascript
-for(let i = 0; i<6; i++){
-  setTimeout(!function(){
-    console.log(i)
-  }(),0)
-}
-```
-
-4. 每次循环声明一个变量
-```javascript
-for(let i = 0; i<6; i++){
-    let j = i
+for(var i = 0; i<6; i++){
+    let j = i;
     setTimeout(()=>{
        console.log(j)
      })
+}
+```
+3. 使用匿名闭包，i变量保存在匿名作用域内
+```javascript
+for(var i = 0; i<6; i++){
+    !function(i){
+        setTimeout(()=>{
+            console.log(i)
+        },0)
+    }(i)
+}
+```
+
+4. 使用匿名闭包
+```javascript
+for(var i = 0; i<6; i++){
+  setTimeout(!function(i){
+    console.log(i)
+  }(i),0)
 }
 ```
 
