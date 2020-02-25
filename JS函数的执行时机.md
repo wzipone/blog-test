@@ -25,7 +25,7 @@ for(let i = 0; i<6; i++){
 ```
 
 
-1. 使用let的块级作用域特性
+2. 使用let的块级作用域特性
 ```javascript
 for(var i = 0; i<6; i++){
     let j = i;
